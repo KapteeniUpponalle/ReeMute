@@ -1,0 +1,16 @@
+name: ReeMute
+version: ${project.version}
+main: com.gmail.kapteeniupponalle666.reemute.ReeMute
+authors: [Reety]
+description: Mute for you
+commands:
+  mute:
+    permission: reemute.mute
+    description: Mutes target
+    usage: /mute <player>
+    aliases: [rmute]
+  unmute:
+    permission: reemute.unmute
+    description: Unmutes target
+    usage: /unmute <player>
+    aliases: [runmute]
